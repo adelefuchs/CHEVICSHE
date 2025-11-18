@@ -1,0 +1,144 @@
+cuda_name: cuda:0
+Learning rate:  0.0005
+Epochs:  1000
+
+================ Repeat 1/5 ================
+
+
+running on  GINConvNet_davis_b3
+Pre-processed data found: data/processed/davis_b3_train_1.pt, loading ...
+Pre-processed data found: data/processed/davis_b3_test_1.pt, loading ...
+
+--- Fold 1/5 ---
+Best validation MSE for fold 1: 0.2270697057247162 at epoch 967
+
+--- Fold 2/5 ---
+Best validation MSE for fold 2: 0.20901288092136383 at epoch 973
+
+--- Fold 3/5 ---
+Best validation MSE for fold 3: 0.23731878399848938 at epoch 638
+
+--- Fold 4/5 ---
+Best validation MSE for fold 4: 0.21522106230258942 at epoch 758
+
+--- Fold 5/5 ---
+Best validation MSE for fold 5: 0.2464722990989685 at epoch 832
+Training final model on full training data...
+Final trained model saved to saved_models/final_model_GINConvNet_davis_b3_1.pt
+Final test set results: [0.8142206239797709, np.float32(0.6629552), np.float64(0.5165148297598198), np.float64(0.4372606265784645), 0.7346545089064591]
+Final test predictions saved to final_test_predictions_GINConvNet_davis_b3_1.csv
+Predicting on Pharos test set...
+Pre-processed data found: data/processed/pharos_test.pt, loading ...
+
+================ Repeat 2/5 ================
+
+
+running on  GINConvNet_davis_b3
+Pre-processed data found: data/processed/davis_b3_train_2.pt, loading ...
+Pre-processed data found: data/processed/davis_b3_test_2.pt, loading ...
+
+--- Fold 1/5 ---
+Best validation MSE for fold 1: 0.23656271398067474 at epoch 630
+
+--- Fold 2/5 ---
+Best validation MSE for fold 2: 0.23805347084999084 at epoch 850
+
+--- Fold 3/5 ---
+Best validation MSE for fold 3: 0.2042165845632553 at epoch 686
+
+--- Fold 4/5 ---
+Best validation MSE for fold 4: 0.21721269190311432 at epoch 878
+
+--- Fold 5/5 ---
+Best validation MSE for fold 5: 0.2378227561712265 at epoch 721
+Training final model on full training data...
+Final trained model saved to saved_models/final_model_GINConvNet_davis_b3_2.pt
+Final test set results: [0.7449761853476102, np.float32(0.5549895), np.float64(0.48485591722599775), np.float64(0.3969135695225075), 0.7234756037837583]
+Final test predictions saved to final_test_predictions_GINConvNet_davis_b3_2.csv
+Predicting on Pharos test set...
+Pre-processed data found: data/processed/pharos_test.pt, loading ...
+
+================ Repeat 3/5 ================
+
+
+running on  GINConvNet_davis_b3
+Pre-processed data found: data/processed/davis_b3_train_3.pt, loading ...
+Pre-processed data found: data/processed/davis_b3_test_3.pt, loading ...
+
+--- Fold 1/5 ---
+Best validation MSE for fold 1: 0.21308556199073792 at epoch 866
+
+--- Fold 2/5 ---
+Best validation MSE for fold 2: 0.21598835289478302 at epoch 897
+
+--- Fold 3/5 ---
+Best validation MSE for fold 3: 0.2211189717054367 at epoch 761
+
+--- Fold 4/5 ---
+Best validation MSE for fold 4: 0.19976307451725006 at epoch 720
+
+--- Fold 5/5 ---
+Best validation MSE for fold 5: 0.21058349311351776 at epoch 519
+Training final model on full training data...
+Final trained model saved to saved_models/final_model_GINConvNet_davis_b3_3.pt
+Final test set results: [0.9359890205582982, np.float32(0.87607545), np.float64(0.46676404704482727), np.float64(0.4184700363916116), 0.7079892618761129]
+Final test predictions saved to final_test_predictions_GINConvNet_davis_b3_3.csv
+Predicting on Pharos test set...
+Pre-processed data found: data/processed/pharos_test.pt, loading ...
+
+================ Repeat 4/5 ================
+
+
+running on  GINConvNet_davis_b3
+Pre-processed data found: data/processed/davis_b3_train_4.pt, loading ...
+Pre-processed data found: data/processed/davis_b3_test_4.pt, loading ...
+
+--- Fold 1/5 ---
+Best validation MSE for fold 1: 0.22046101093292236 at epoch 841
+
+--- Fold 2/5 ---
+Best validation MSE for fold 2: 0.21173490583896637 at epoch 698
+
+--- Fold 3/5 ---
+Best validation MSE for fold 3: 0.21414603292942047 at epoch 659
+
+--- Fold 4/5 ---
+Best validation MSE for fold 4: 0.23678340017795563 at epoch 955
+
+--- Fold 5/5 ---
+Best validation MSE for fold 5: 0.237099289894104 at epoch 878
+Training final model on full training data...
+Final trained model saved to saved_models/final_model_GINConvNet_davis_b3_4.pt
+Final test set results: [0.9231218537604373, np.float32(0.85215396), np.float64(0.416197879594619), np.float64(0.3448406053662963), 0.6866351201423024]
+Final test predictions saved to final_test_predictions_GINConvNet_davis_b3_4.csv
+Predicting on Pharos test set...
+Pre-processed data found: data/processed/pharos_test.pt, loading ...
+
+================ Repeat 5/5 ================
+
+
+running on  GINConvNet_davis_b3
+Pre-processed data found: data/processed/davis_b3_train_5.pt, loading ...
+Pre-processed data found: data/processed/davis_b3_test_5.pt, loading ...
+
+--- Fold 1/5 ---
+Best validation MSE for fold 1: 0.25248438119888306 at epoch 738
+
+--- Fold 2/5 ---
+Best validation MSE for fold 2: 0.22424142062664032 at epoch 733
+
+--- Fold 3/5 ---
+Best validation MSE for fold 3: 0.22121845185756683 at epoch 683
+
+--- Fold 4/5 ---
+Best validation MSE for fold 4: 0.2551638185977936 at epoch 389
+
+--- Fold 5/5 ---
+Best validation MSE for fold 5: 0.22628650069236755 at epoch 377
+Training final model on full training data...
+Final trained model saved to saved_models/final_model_GINConvNet_davis_b3_5.pt
+Final test set results: [0.6972524818015151, np.float32(0.48616102), np.float64(0.5128163757285245), np.float64(0.4367748794599393), 0.7506813600287945]
+Final test predictions saved to final_test_predictions_GINConvNet_davis_b3_5.csv
+Predicting on Pharos test set...
+Pre-processed data found: data/processed/pharos_test.pt, loading ...
+Pharos test predictions saved to pharos_test_predictions_GINConvNet.csv
