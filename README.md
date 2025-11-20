@@ -9,7 +9,7 @@ The goal of this project is to systematically evaluate how machine-learning mode
 
 - Data curation and preprocessing for DAVIS and Pharos  
 - Training, evaluating, and extracting embeddings from multiple DTA architectures  
-- Computing cold-start reliability metrics 
+- Computing cold-start reliability metrics  
 - Experiments for model-prediction correction and analysis  
 
 ---
@@ -42,7 +42,8 @@ Each directory contains:
   - **Analysis of Predictions** – exploratory evaluation of predictions across cold and warm settings  
   - **Metrics** – computation of metrics and related components  
   - **Correction** – experiments for prediction adjustment and error reduction  
-The notebooks produce all plots used in the thesis that rely on data.
+
+The notebooks produce all plots used in the thesis that rely on model predictions and processed data.
 
 **Note:**  
 The **original implementations** of these models are published by their respective authors and should be referenced for standalone reproduction:
@@ -52,6 +53,25 @@ The **original implementations** of these models are published by their respecti
 - *LLMDTA* – original author GitLab repo  
 
 This repository includes specific restructuring and extensions supporting nested cold-protein blinding, per-fold prediction storage, and embedding extraction.
+
+---
+
+## **Training Environment and Re-running Experiments**
+All model training for this project was performed on a high-performance computing (HPC) cluster using job-submission scripts tailored to that environment.
+
+Because of this:
+
+- **there is no single command-line interface provided to retrain the models locally**, and  
+- training cannot be reproduced directly without adapting the scripts to your own compute environment.
+
+However, **all downstream analyses can be fully re-run using the Jupyter notebooks included in each model folder**. These notebooks allow you to:
+
+- load stored predictions and embeddings generated on the HPC,  
+- recompute all metrics (CHR, CSPD, CSVS, DV, etc.),  
+- regenerate all figures and tables used in the thesis, and  
+- rerun correction experiments and diagnostic analyses.
+
+If you wish to reproduce the full training pipelines, you may adapt the provided scripts for your own cluster or local machine. The original model repositories (linked above) should be used as references for full training pipelines and default configurations.
 
 ---
 
@@ -65,3 +85,4 @@ were **too large to push to GitLab**.
 
 However:
 - All necessary scripts to regenerate them are included.
+---
