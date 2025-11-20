@@ -48,11 +48,11 @@ The notebooks produce all plots used in the thesis that rely on model prediction
 **Note:**  
 The **original implementations** of these models are published by their respective authors and should be referenced for standalone reproduction:
 
-- *GraphDTA* – original author GitLab repo  
-- *ColdDTA* – original author GitLab repo  
-- *LLMDTA* – original author GitLab repo  
+- *GraphDTA* – [original author GitLab repo  ](https://github.com/thinng/GraphDTA)
+- *ColdDTA* – [original author GitLab repo ](https://github.com/doragu/coldDTA) 
+- *LLMDTA* – [original author GitLab repo  ](https://github.com/Chris-Tang6/LLMDTA)
 
-This repository includes specific restructuring and extensions supporting nested cold-protein blinding, per-fold prediction storage, and embedding extraction.
+This repository includes specific restructuring and extension supporting nested cold-protein blinding, per-fold prediction storage, and embedding extraction.
 
 ---
 
